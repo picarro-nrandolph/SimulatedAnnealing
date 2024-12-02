@@ -7,7 +7,7 @@ import numpy as np
 from joblib import Parallel, delayed
 import pandas as pd
 from sklearn.base import clone
-from sklearn.metrics.scorer import get_scorer
+from sklearn.metrics import get_scorer
 from sklearn.model_selection import KFold
 from sklearn.model_selection._validation import _fit_and_score
 
